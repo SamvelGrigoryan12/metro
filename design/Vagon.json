@@ -1,0 +1,1497 @@
+{
+   "_typeName" : "ObjectConstruct",
+   "_version" : "VER3",
+   "animations" : [],
+   "finder" : {
+      "_typeName" : "FindableGeometryElement",
+      "geom" : {
+         "_typeName" : "IdenticGeometry"
+      }
+   },
+   "id" : 0,
+   "position" : {
+      "_typeName" : "PositionElement",
+      "angle" : 0,
+      "offset" : [ 0, 0 ],
+      "scaleX" : 1.5,
+      "scaleY" : 1.5
+   },
+   "selector" : {
+      "_typeName" : "PressableAndClickableElement",
+      "clickTime" : 500
+   },
+   "skin" : {
+      "_typeName" : "CanvasLayout",
+      "adjustment" : 1,
+      "box" : {
+         "_typeName" : "PixelBox",
+         "height" : 0,
+         "width" : 0
+      },
+      "list" : [
+         {
+            "_typeName" : "StaticFilledRect",
+            "box" : {
+               "_typeName" : "RelativeBox",
+               "height" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 0,
+                  "value" : 0
+               },
+               "offset" : {
+                  "_empty" : true
+               },
+               "width" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 0,
+                  "value" : 0
+               }
+            },
+            "color" : [ 0, 0, 0, 1 ],
+            "position" : {
+               "_typeName" : "AligningOffset",
+               "horAlign" : 1,
+               "horOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               },
+               "vertAlign" : 1,
+               "vertOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               }
+            }
+         },
+         {
+            "_typeName" : "GameView",
+            "box" : {
+               "_typeName" : "PixelBox",
+               "height" : 125,
+               "width" : 927
+            },
+            "gameBoxObj" : {
+               "_typeName" : "RelativeGameBox",
+               "box" : {
+                  "_typeName" : "RelativeBox",
+                  "height" : {
+                     "_typeName" : "RelativeValue",
+                     "type" : 0,
+                     "value" : 0
+                  },
+                  "offset" : {
+                     "_empty" : true
+                  },
+                  "width" : {
+                     "_typeName" : "RelativeValue",
+                     "type" : 0,
+                     "value" : 0
+                  }
+               },
+               "coordSystem" : 0
+            },
+            "list" : [
+               {
+                  "_name" : "pols",
+                  "_typeName" : "Layer",
+                  "index" : {
+                     "_typeName" : "FlatIndex",
+                     "keyType" : 2
+                  },
+                  "list" : [
+                     {
+                        "_name" : "pol",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 0,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 0, 0 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 122,
+                              "width" : 925
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "pol.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     }
+                  ],
+                  "order" : {
+                     "_typeName" : "SortByIDOrder"
+                  }
+               },
+               {
+                  "_name" : "seats",
+                  "_typeName" : "Layer",
+                  "index" : {
+                     "_typeName" : "FlatIndex",
+                     "keyType" : 2
+                  },
+                  "list" : [
+                     {
+                        "_name" : "tl",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 0,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -423, 44 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 32,
+                              "width" : 60
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "seats2.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "bl",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 1,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -423, -44 ],
+                           "scaleX" : 1,
+                           "scaleY" : -1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 32,
+                              "width" : 60
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "seats2.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "tlc",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 2,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -235, 44 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 32,
+                              "width" : 140
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "seats.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "blc",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 3,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -235, -44 ],
+                           "scaleX" : 1,
+                           "scaleY" : -1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 32,
+                              "width" : 140
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "seats.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "tc",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 4,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -5, 44 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 32,
+                              "width" : 140
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "seats.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "bc",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 5,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -5, -44 ],
+                           "scaleX" : 1,
+                           "scaleY" : -1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 32,
+                              "width" : 140
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "seats.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "trc",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 6,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 230, 44 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 32,
+                              "width" : 140
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "seats.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "brc",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 7,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 230, -44 ],
+                           "scaleX" : 1,
+                           "scaleY" : -1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 32,
+                              "width" : 140
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "seats.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "tr",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 8,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 423, 44 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 32,
+                              "width" : 60
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "seats2.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "br",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 9,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 423, -44 ],
+                           "scaleX" : 1,
+                           "scaleY" : -1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 32,
+                              "width" : 60
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "seats2.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     }
+                  ],
+                  "order" : {
+                     "_typeName" : "SortByIDOrder"
+                  }
+               },
+               {
+                  "_name" : "walls",
+                  "_typeName" : "Layer",
+                  "index" : {
+                     "_typeName" : "FlatIndex",
+                     "keyType" : 2
+                  },
+                  "list" : [
+                     {
+                        "_name" : "rw",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 0,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -462, 0 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 103,
+                              "width" : 3
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "lw",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 1,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 462, 0 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 103,
+                              "width" : 3
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "tw1",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 2,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -422, 61 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 3,
+                              "width" : 63
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "tw2",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 3,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -235, 61 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 3,
+                              "width" : 145
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "tw3",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 4,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -5, 61 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 3,
+                              "width" : 145
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "tw4",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 5,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 230, 61 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 3,
+                              "width" : 145
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "tw5",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 6,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 422, 61 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 3,
+                              "width" : 63
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "bw1",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 7,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -422, -61 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 3,
+                              "width" : 63
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "bw2",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 8,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -235, -61 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 3,
+                              "width" : 145
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "bw3",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 9,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ -5, -61 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 3,
+                              "width" : 145
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "bw4",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 10,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 230, -61 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 3,
+                              "width" : 145
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "bw5",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 11,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 422, -61 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 3,
+                              "width" : 63
+                           },
+                           "color" : [ 0.3333333432674408, 0.3333333432674408, 0.3333333432674408, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     }
+                  ],
+                  "order" : {
+                     "_typeName" : "SortByIDOrder"
+                  }
+               },
+               {
+                  "_name" : "angles",
+                  "_typeName" : "Layer",
+                  "index" : {
+                     "_typeName" : "FlatIndex",
+                     "keyType" : 2
+                  },
+                  "list" : [
+                     {
+                        "_name" : "tlp",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 0,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 0, 0 ],
+                           "scaleX" : 1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_name" : "tl",
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 11,
+                              "width" : 11
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "vwallp.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 0,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 0,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "blp",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 1,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 0, 0 ],
+                           "scaleX" : 1,
+                           "scaleY" : -1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_name" : "tl",
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 11,
+                              "width" : 11
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "vwallp.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 0,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 0,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "trp",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 2,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 0, 0 ],
+                           "scaleX" : -1,
+                           "scaleY" : 1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_name" : "tl",
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 11,
+                              "width" : 11
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "vwallp.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 0,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 0,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     },
+                     {
+                        "_name" : "brp",
+                        "_typeName" : "ObjectConstruct",
+                        "animations" : [],
+                        "finder" : {
+                           "_typeName" : "FindableGeometryElement",
+                           "geom" : {
+                              "_typeName" : "IdenticGeometry"
+                           }
+                        },
+                        "id" : 3,
+                        "position" : {
+                           "_typeName" : "PositionElement",
+                           "angle" : 0,
+                           "offset" : [ 0, 0 ],
+                           "scaleX" : -1,
+                           "scaleY" : -1
+                        },
+                        "selector" : {
+                           "_typeName" : "PressableAndClickableElement",
+                           "clickTime" : 500
+                        },
+                        "skin" : {
+                           "_name" : "tl",
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "PixelBox",
+                              "height" : 11,
+                              "width" : 11
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "vwallp.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 0,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 0,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        "transitionAnimations" : []
+                     }
+                  ],
+                  "order" : {
+                     "_typeName" : "SortByIDOrder"
+                  }
+               }
+            ],
+            "position" : {
+               "_typeName" : "AligningOffset",
+               "horAlign" : 1,
+               "horOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               },
+               "vertAlign" : 1,
+               "vertOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               }
+            }
+         }
+      ],
+      "position" : {
+         "_typeName" : "AligningOffset",
+         "horAlign" : 1,
+         "horOffset" : {
+            "_typeName" : "RelativeValue",
+            "type" : 1,
+            "value" : 0
+         },
+         "vertAlign" : 1,
+         "vertOffset" : {
+            "_typeName" : "RelativeValue",
+            "type" : 1,
+            "value" : 0
+         }
+      }
+   },
+   "transitionAnimations" : []
+}

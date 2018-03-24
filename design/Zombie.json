@@ -1,0 +1,297 @@
+{
+   "_name" : "zombie",
+   "_typeName" : "ObjectConstruct",
+   "_version" : "VER3",
+   "animations" : [
+      {
+         "_key" : "zxodba",
+         "_value" : {
+            "_typeName" : "RepeatingAnimation",
+            "animation" : {
+               "_typeName" : "CompositeAnimation",
+               "animations" : [
+                  {
+                     "_typeName" : "InstantHide",
+                     "objName" : "zxod1"
+                  },
+                  {
+                     "_typeName" : "InstantShow",
+                     "objName" : "zxod2"
+                  },
+                  {
+                     "_typeName" : "AnimationPause",
+                     "pauseTime" : 250
+                  },
+                  {
+                     "_typeName" : "InstantHide",
+                     "objName" : "zxod2"
+                  },
+                  {
+                     "_typeName" : "InstantShow",
+                     "objName" : "zxod3"
+                  },
+                  {
+                     "_typeName" : "AnimationPause",
+                     "pauseTime" : 250
+                  },
+                  {
+                     "_typeName" : "InstantHide",
+                     "objName" : "zxod3"
+                  },
+                  {
+                     "_typeName" : "InstantShow",
+                     "objName" : "zxod4"
+                  },
+                  {
+                     "_typeName" : "AnimationPause",
+                     "pauseTime" : 250
+                  },
+                  {
+                     "_typeName" : "InstantHide",
+                     "objName" : "zxod4"
+                  },
+                  {
+                     "_typeName" : "InstantShow",
+                     "objName" : "zxod5"
+                  },
+                  {
+                     "_typeName" : "AnimationPause",
+                     "pauseTime" : 250
+                  },
+                  {
+                     "_typeName" : "InstantHide",
+                     "objName" : "zxod5"
+                  },
+                  {
+                     "_typeName" : "InstantShow",
+                     "objName" : "zxod6"
+                  },
+                  {
+                     "_typeName" : "AnimationPause",
+                     "pauseTime" : 250
+                  },
+                  {
+                     "_typeName" : "InstantHide",
+                     "objName" : "zxod6"
+                  },
+                  {
+                     "_typeName" : "InstantShow",
+                     "objName" : "zxod1"
+                  },
+                  {
+                     "_typeName" : "AnimationPause",
+                     "pauseTime" : 250
+                  }
+               ]
+            },
+            "repeatTimes" : -1
+         }
+      }
+   ],
+   "finder" : {
+      "_typeName" : "FindableGeometryElement",
+      "geom" : {
+         "_typeName" : "IdenticGeometry"
+      }
+   },
+   "id" : 0,
+   "position" : {
+      "_typeName" : "PositionElement",
+      "angle" : 0,
+      "offset" : [ 0, 0 ],
+      "scaleX" : 1.299999952316284,
+      "scaleY" : 1.299999952316284
+   },
+   "selector" : {
+      "_typeName" : "PressableAndClickableElement",
+      "clickTime" : 500
+   },
+   "skin" : {
+      "_typeName" : "CanvasLayout",
+      "adjustment" : 0,
+      "box" : {
+         "_typeName" : "PixelBox",
+         "height" : 48,
+         "width" : 79
+      },
+      "list" : [
+         {
+            "_name" : "zxod1",
+            "_typeName" : "StaticTextureRect",
+            "box" : {
+               "_typeName" : "PixelBox",
+               "height" : 48,
+               "width" : 79
+            },
+            "color" : [ 1, 1, 1, 1 ],
+            "imageName" : "zomxod1.png",
+            "position" : {
+               "_typeName" : "AligningOffset",
+               "horAlign" : 1,
+               "horOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               },
+               "vertAlign" : 1,
+               "vertOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               }
+            }
+         },
+         {
+            "_name" : "zxod2",
+            "_typeName" : "StaticTextureRect",
+            "_visible" : false,
+            "box" : {
+               "_typeName" : "PixelBox",
+               "height" : 48,
+               "width" : 79
+            },
+            "color" : [ 1, 1, 1, 1 ],
+            "imageName" : "zomxod2.png",
+            "position" : {
+               "_typeName" : "AligningOffset",
+               "horAlign" : 1,
+               "horOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               },
+               "vertAlign" : 1,
+               "vertOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               }
+            }
+         },
+         {
+            "_name" : "zxod3",
+            "_typeName" : "StaticTextureRect",
+            "_visible" : false,
+            "box" : {
+               "_typeName" : "PixelBox",
+               "height" : 48,
+               "width" : 79
+            },
+            "color" : [ 1, 1, 1, 1 ],
+            "imageName" : "zomxod3.png",
+            "position" : {
+               "_typeName" : "AligningOffset",
+               "horAlign" : 1,
+               "horOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               },
+               "vertAlign" : 1,
+               "vertOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               }
+            }
+         },
+         {
+            "_name" : "zxod4",
+            "_typeName" : "StaticTextureRect",
+            "_visible" : false,
+            "box" : {
+               "_typeName" : "PixelBox",
+               "height" : 48,
+               "width" : 79
+            },
+            "color" : [ 1, 1, 1, 1 ],
+            "imageName" : "zomxod4.png",
+            "position" : {
+               "_typeName" : "AligningOffset",
+               "horAlign" : 1,
+               "horOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               },
+               "vertAlign" : 1,
+               "vertOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               }
+            }
+         },
+         {
+            "_name" : "zxod5",
+            "_typeName" : "StaticTextureRect",
+            "_visible" : false,
+            "box" : {
+               "_typeName" : "PixelBox",
+               "height" : 48,
+               "width" : 79
+            },
+            "color" : [ 1, 1, 1, 1 ],
+            "imageName" : "zomxod5.png",
+            "position" : {
+               "_typeName" : "AligningOffset",
+               "horAlign" : 1,
+               "horOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               },
+               "vertAlign" : 1,
+               "vertOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               }
+            }
+         },
+         {
+            "_name" : "zxod6",
+            "_typeName" : "StaticTextureRect",
+            "_visible" : false,
+            "box" : {
+               "_typeName" : "PixelBox",
+               "height" : 48,
+               "width" : 79
+            },
+            "color" : [ 1, 1, 1, 1 ],
+            "imageName" : "zomxod6.png",
+            "position" : {
+               "_typeName" : "AligningOffset",
+               "horAlign" : 1,
+               "horOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               },
+               "vertAlign" : 1,
+               "vertOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               }
+            }
+         }
+      ],
+      "position" : {
+         "_typeName" : "AligningOffset",
+         "horAlign" : 1,
+         "horOffset" : {
+            "_typeName" : "RelativeValue",
+            "type" : 1,
+            "value" : 0
+         },
+         "vertAlign" : 1,
+         "vertOffset" : {
+            "_typeName" : "RelativeValue",
+            "type" : 1,
+            "value" : 0
+         }
+      }
+   },
+   "transitionAnimations" : []
+}

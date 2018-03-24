@@ -1,0 +1,2002 @@
+{
+   "_name" : "game",
+   "_typeName" : "SelectingWidget",
+   "_version" : "VER3",
+   "adjustment" : 0,
+   "box" : {
+      "_typeName" : "RelativeBox",
+      "height" : {
+         "_typeName" : "RelativeValue",
+         "type" : 0,
+         "value" : 0
+      },
+      "offset" : {
+         "_empty" : true
+      },
+      "width" : {
+         "_typeName" : "RelativeValue",
+         "type" : 0,
+         "value" : 0
+      }
+   },
+   "currentID" : 2,
+   "objects" : [
+      {
+         "_key" : 1,
+         "_value" : {
+            "_name" : "Меню",
+            "_typeName" : "CanvasLayout",
+            "adjustment" : 0,
+            "box" : {
+               "_typeName" : "RelativeBox",
+               "height" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 0,
+                  "value" : 0
+               },
+               "offset" : {
+                  "_empty" : true
+               },
+               "width" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 0,
+                  "value" : 0
+               }
+            },
+            "list" : [
+               {
+                  "_typeName" : "LinearLayout",
+                  "list" : [
+                     {
+                        "_typeName" : "Pattern",
+                        "box" : {
+                           "_typeName" : "RelativeBox",
+                           "height" : {
+                              "_typeName" : "RelativeValue",
+                              "type" : 2,
+                              "value" : 0.8999999761581421
+                           },
+                           "offset" : {
+                              "_empty" : true
+                           },
+                           "width" : {
+                              "_typeName" : "RelativeValue",
+                              "type" : 0,
+                              "value" : 0
+                           }
+                        },
+                        "color" : [ 1, 1, 1, 1 ],
+                        "imageName" : "wall.png",
+                        "periods" : [ 200, 200 ],
+                        "position" : {
+                           "_typeName" : "AligningOffset",
+                           "horAlign" : 1,
+                           "horOffset" : {
+                              "_typeName" : "RelativeValue",
+                              "type" : 1,
+                              "value" : 0
+                           },
+                           "vertAlign" : 0,
+                           "vertOffset" : {
+                              "_typeName" : "RelativeValue",
+                              "type" : 1,
+                              "value" : 0
+                           }
+                        },
+                        "texCoordsOffset" : [ 0, 0 ],
+                        "wrapX" : 1,
+                        "wrapY" : 1
+                     },
+                     {
+                        "_typeName" : "Pattern",
+                        "box" : {
+                           "_typeName" : "RelativeBox",
+                           "height" : {
+                              "_typeName" : "RelativeValue",
+                              "type" : 0,
+                              "value" : 0
+                           },
+                           "offset" : {
+                              "_empty" : true
+                           },
+                           "width" : {
+                              "_typeName" : "RelativeValue",
+                              "type" : 0,
+                              "value" : 0
+                           }
+                        },
+                        "color" : [ 1, 1, 1, 1 ],
+                        "imageName" : "beton.png",
+                        "periods" : [ 0, 0 ],
+                        "position" : {
+                           "_typeName" : "AligningOffset",
+                           "horAlign" : 1,
+                           "horOffset" : {
+                              "_typeName" : "RelativeValue",
+                              "type" : 1,
+                              "value" : 0
+                           },
+                           "vertAlign" : 0,
+                           "vertOffset" : {
+                              "_typeName" : "RelativeValue",
+                              "type" : 1,
+                              "value" : -0
+                           }
+                        },
+                        "texCoordsOffset" : [ 0, 0 ],
+                        "wrapX" : 1,
+                        "wrapY" : 1
+                     }
+                  ],
+                  "position" : {
+                     "_typeName" : "AligningOffset",
+                     "horAlign" : 1,
+                     "horOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 1,
+                        "value" : 0
+                     },
+                     "vertAlign" : 1,
+                     "vertOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 1,
+                        "value" : 0
+                     }
+                  },
+                  "skin" : {
+                     "_typeName" : "VerticalLayoutSkin",
+                     "adjustment" : 1,
+                     "align" : 1,
+                     "box" : {
+                        "_typeName" : "RelativeBox",
+                        "height" : {
+                           "_typeName" : "RelativeValue",
+                           "type" : 0,
+                           "value" : 0
+                        },
+                        "offset" : {
+                           "_empty" : true
+                        },
+                        "width" : {
+                           "_typeName" : "RelativeValue",
+                           "type" : 0,
+                           "value" : 0
+                        }
+                     },
+                     "padding" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 1,
+                        "value" : -0
+                     }
+                  },
+                  "skipInvisibleElements" : false
+               },
+               {
+                  "_name" : "metrov",
+                  "_typeName" : "ObjectConstruct",
+                  "animations" : [
+                     {
+                        "_key" : "close",
+                        "_value" : {
+                           "_typeName" : "CompositeAnimation",
+                           "animations" : [
+                              {
+                                 "_typeName" : "ParallelAnimation",
+                                 "animations" : [
+                                    {
+                                       "_typeName" : "ParallelAnimation",
+                                       "animations" : [
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodlp",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : true,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : 100
+                                          },
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodrp",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : true,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : -100
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "_typeName" : "ParallelAnimation",
+                                       "animations" : [
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodlh",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : true,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : 100
+                                          },
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodrh",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : true,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : -100
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "_typeName" : "ParallelAnimation",
+                                       "animations" : [
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodl",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : true,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : 100
+                                          },
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodr",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : true,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : -100
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "_typeName" : "ParallelAnimation",
+                                       "animations" : [
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodle",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : true,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : 100
+                                          },
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodre",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : true,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : -100
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              },
+                              {
+                                 "_typeName" : "AnimationPause",
+                                 "pauseTime" : 1000
+                              },
+                              {
+                                 "_typeName" : "AdvancedMove",
+                                 "changeFunc" : 4,
+                                 "coordType" : 0,
+                                 "objName" : "",
+                                 "parentHeightRelativeCoord" : 0,
+                                 "parentWidthRelativeCoord" : 0,
+                                 "period" : 3000,
+                                 "pixelCoord" : 1000,
+                                 "relativeMove" : true,
+                                 "selfHeightRelativeCoord" : 0,
+                                 "selfWidthRelativeCoord" : 0
+                              }
+                           ]
+                        }
+                     },
+                     {
+                        "_key" : "onpos",
+                        "_value" : {
+                           "_typeName" : "AdvancedMove",
+                           "changeFunc" : 0,
+                           "coordType" : 0,
+                           "objName" : "",
+                           "parentHeightRelativeCoord" : 0,
+                           "parentWidthRelativeCoord" : 0,
+                           "period" : 0,
+                           "pixelCoord" : -2000,
+                           "relativeMove" : false,
+                           "selfHeightRelativeCoord" : 0,
+                           "selfWidthRelativeCoord" : 0
+                        }
+                     },
+                     {
+                        "_key" : "open",
+                        "_value" : {
+                           "_typeName" : "CompositeAnimation",
+                           "animations" : [
+                              {
+                                 "_typeName" : "AdvancedMove",
+                                 "changeFunc" : 2,
+                                 "coordType" : 0,
+                                 "objName" : "",
+                                 "parentHeightRelativeCoord" : 0,
+                                 "parentWidthRelativeCoord" : 0,
+                                 "period" : 3000,
+                                 "pixelCoord" : 1000,
+                                 "relativeMove" : false,
+                                 "selfHeightRelativeCoord" : 0,
+                                 "selfWidthRelativeCoord" : 0
+                              },
+                              {
+                                 "_typeName" : "AnimationPause",
+                                 "pauseTime" : 1000
+                              },
+                              {
+                                 "_typeName" : "ParallelAnimation",
+                                 "animations" : [
+                                    {
+                                       "_typeName" : "ParallelAnimation",
+                                       "animations" : [
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodlp",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : false,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : -100
+                                          },
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodrp",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : false,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : 100
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "_typeName" : "ParallelAnimation",
+                                       "animations" : [
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodlh",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : false,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : -100
+                                          },
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodrh",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : false,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : 100
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "_typeName" : "ParallelAnimation",
+                                       "animations" : [
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodl",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : false,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : -100
+                                          },
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodr",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : false,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : 100
+                                          }
+                                       ]
+                                    },
+                                    {
+                                       "_typeName" : "ParallelAnimation",
+                                       "animations" : [
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodle",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : false,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : -100
+                                          },
+                                          {
+                                             "_typeName" : "AdvancedMove",
+                                             "changeFunc" : 0,
+                                             "coordType" : 0,
+                                             "objName" : "metrodre",
+                                             "parentHeightRelativeCoord" : 0,
+                                             "parentWidthRelativeCoord" : 0,
+                                             "period" : 700,
+                                             "pixelCoord" : 0,
+                                             "relativeMove" : false,
+                                             "selfHeightRelativeCoord" : 0,
+                                             "selfWidthRelativeCoord" : 100
+                                          }
+                                       ]
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     }
+                  ],
+                  "finder" : {
+                     "_typeName" : "FindableGeometryElement",
+                     "geom" : {
+                        "_typeName" : "IdenticGeometry"
+                     }
+                  },
+                  "id" : 0,
+                  "position" : {
+                     "_typeName" : "PositionElement",
+                     "angle" : 0,
+                     "offset" : [ 0, 0 ],
+                     "scaleX" : 1,
+                     "scaleY" : 1
+                  },
+                  "selector" : {
+                     "_typeName" : "PressableAndClickableElement",
+                     "clickTime" : 500
+                  },
+                  "skin" : {
+                     "_typeName" : "CanvasLayout",
+                     "adjustment" : 0,
+                     "box" : {
+                        "_typeName" : "RelativeBox",
+                        "height" : {
+                           "_typeName" : "RelativeValue",
+                           "type" : 0,
+                           "value" : 0
+                        },
+                        "offset" : {
+                           "_empty" : true
+                        },
+                        "width" : {
+                           "_typeName" : "RelativeValue",
+                           "type" : 0,
+                           "value" : 0
+                        }
+                     },
+                     "list" : [
+                        {
+                           "_typeName" : "StaticFilledRect",
+                           "box" : {
+                              "_typeName" : "RelativeBox",
+                              "height" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.2000000029802322
+                              },
+                              "offset" : {
+                                 "_empty" : true
+                              },
+                              "width" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.800000011920929
+                              }
+                           },
+                           "color" : [ 1, 0.7960784435272217, 0.01960784383118153, 1 ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        },
+                        {
+                           "_typeName" : "CanvasLayout",
+                           "adjustment" : 0,
+                           "box" : {
+                              "_typeName" : "RelativeBox",
+                              "height" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.1340000033378601
+                              },
+                              "offset" : {
+                                 "_empty" : true
+                              },
+                              "width" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.07199999690055847
+                              }
+                           },
+                           "list" : [
+                              {
+                                 "_name" : "metrodlp",
+                                 "_typeName" : "ObjectConstruct",
+                                 "animations" : [],
+                                 "finder" : {
+                                    "_typeName" : "FindableGeometryElement",
+                                    "geom" : {
+                                       "_typeName" : "IdenticGeometry"
+                                    }
+                                 },
+                                 "id" : 0,
+                                 "position" : {
+                                    "_typeName" : "PositionElement",
+                                    "angle" : 0,
+                                    "offset" : [ 0, 0 ],
+                                    "scaleX" : 1,
+                                    "scaleY" : 1
+                                 },
+                                 "selector" : {
+                                    "_typeName" : "PressableAndClickableElement",
+                                    "clickTime" : 500
+                                 },
+                                 "skin" : {
+                                    "_typeName" : "StaticTextureRect",
+                                    "box" : {
+                                       "_typeName" : "RelativeBox",
+                                       "height" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 0,
+                                          "value" : 0
+                                       },
+                                       "offset" : {
+                                          "_empty" : true
+                                       },
+                                       "width" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0.5
+                                       }
+                                    },
+                                    "color" : [ 1, 1, 1, 1 ],
+                                    "imageName" : "metrol.png",
+                                    "position" : {
+                                       "_typeName" : "AligningOffset",
+                                       "horAlign" : 0,
+                                       "horOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       },
+                                       "vertAlign" : 1,
+                                       "vertOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       }
+                                    }
+                                 },
+                                 "transitionAnimations" : []
+                              },
+                              {
+                                 "_name" : "metrodrp",
+                                 "_typeName" : "ObjectConstruct",
+                                 "animations" : [],
+                                 "finder" : {
+                                    "_typeName" : "FindableGeometryElement",
+                                    "geom" : {
+                                       "_typeName" : "IdenticGeometry"
+                                    }
+                                 },
+                                 "id" : 0,
+                                 "position" : {
+                                    "_typeName" : "PositionElement",
+                                    "angle" : 0,
+                                    "offset" : [ 0, 0 ],
+                                    "scaleX" : 1,
+                                    "scaleY" : 1
+                                 },
+                                 "selector" : {
+                                    "_typeName" : "PressableAndClickableElement",
+                                    "clickTime" : 500
+                                 },
+                                 "skin" : {
+                                    "_typeName" : "StaticTextureRect",
+                                    "box" : {
+                                       "_typeName" : "RelativeBox",
+                                       "height" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 0,
+                                          "value" : 0
+                                       },
+                                       "offset" : {
+                                          "_empty" : true
+                                       },
+                                       "width" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0.5
+                                       }
+                                    },
+                                    "color" : [ 1, 1, 1, 1 ],
+                                    "imageName" : "metror.png",
+                                    "position" : {
+                                       "_typeName" : "AligningOffset",
+                                       "horAlign" : 2,
+                                       "horOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       },
+                                       "vertAlign" : 1,
+                                       "vertOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       }
+                                    }
+                                 },
+                                 "transitionAnimations" : []
+                              }
+                           ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : -0.3449999988079071
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : -0.01899999938905239
+                              }
+                           }
+                        },
+                        {
+                           "_typeName" : "CanvasLayout",
+                           "adjustment" : 0,
+                           "box" : {
+                              "_typeName" : "RelativeBox",
+                              "height" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.1340000033378601
+                              },
+                              "offset" : {
+                                 "_empty" : true
+                              },
+                              "width" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.07199999690055847
+                              }
+                           },
+                           "list" : [
+                              {
+                                 "_name" : "metrodlh",
+                                 "_typeName" : "ObjectConstruct",
+                                 "animations" : [],
+                                 "finder" : {
+                                    "_typeName" : "FindableGeometryElement",
+                                    "geom" : {
+                                       "_typeName" : "IdenticGeometry"
+                                    }
+                                 },
+                                 "id" : 0,
+                                 "position" : {
+                                    "_typeName" : "PositionElement",
+                                    "angle" : 0,
+                                    "offset" : [ 0, 0 ],
+                                    "scaleX" : 1,
+                                    "scaleY" : 1
+                                 },
+                                 "selector" : {
+                                    "_typeName" : "PressableAndClickableElement",
+                                    "clickTime" : 500
+                                 },
+                                 "skin" : {
+                                    "_typeName" : "StaticTextureRect",
+                                    "box" : {
+                                       "_typeName" : "RelativeBox",
+                                       "height" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 0,
+                                          "value" : 0
+                                       },
+                                       "offset" : {
+                                          "_empty" : true
+                                       },
+                                       "width" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0.5
+                                       }
+                                    },
+                                    "color" : [ 1, 1, 1, 1 ],
+                                    "imageName" : "metrol.png",
+                                    "position" : {
+                                       "_typeName" : "AligningOffset",
+                                       "horAlign" : 0,
+                                       "horOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       },
+                                       "vertAlign" : 1,
+                                       "vertOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       }
+                                    }
+                                 },
+                                 "transitionAnimations" : []
+                              },
+                              {
+                                 "_name" : "metrodrh",
+                                 "_typeName" : "ObjectConstruct",
+                                 "animations" : [],
+                                 "finder" : {
+                                    "_typeName" : "FindableGeometryElement",
+                                    "geom" : {
+                                       "_typeName" : "IdenticGeometry"
+                                    }
+                                 },
+                                 "id" : 0,
+                                 "position" : {
+                                    "_typeName" : "PositionElement",
+                                    "angle" : 0,
+                                    "offset" : [ 0, 0 ],
+                                    "scaleX" : 1,
+                                    "scaleY" : 1
+                                 },
+                                 "selector" : {
+                                    "_typeName" : "PressableAndClickableElement",
+                                    "clickTime" : 500
+                                 },
+                                 "skin" : {
+                                    "_typeName" : "StaticTextureRect",
+                                    "box" : {
+                                       "_typeName" : "RelativeBox",
+                                       "height" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 0,
+                                          "value" : 0
+                                       },
+                                       "offset" : {
+                                          "_empty" : true
+                                       },
+                                       "width" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0.5
+                                       }
+                                    },
+                                    "color" : [ 1, 1, 1, 1 ],
+                                    "imageName" : "metror.png",
+                                    "position" : {
+                                       "_typeName" : "AligningOffset",
+                                       "horAlign" : 2,
+                                       "horOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       },
+                                       "vertAlign" : 1,
+                                       "vertOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       }
+                                    }
+                                 },
+                                 "transitionAnimations" : []
+                              }
+                           ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : -0.1120000034570694
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : -0.01899999938905239
+                              }
+                           }
+                        },
+                        {
+                           "_typeName" : "CanvasLayout",
+                           "adjustment" : 0,
+                           "box" : {
+                              "_typeName" : "RelativeBox",
+                              "height" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.1340000033378601
+                              },
+                              "offset" : {
+                                 "_empty" : true
+                              },
+                              "width" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.07199999690055847
+                              }
+                           },
+                           "list" : [
+                              {
+                                 "_name" : "metrodl",
+                                 "_typeName" : "ObjectConstruct",
+                                 "animations" : [],
+                                 "finder" : {
+                                    "_typeName" : "FindableGeometryElement",
+                                    "geom" : {
+                                       "_typeName" : "IdenticGeometry"
+                                    }
+                                 },
+                                 "id" : 0,
+                                 "position" : {
+                                    "_typeName" : "PositionElement",
+                                    "angle" : 0,
+                                    "offset" : [ 0, 0 ],
+                                    "scaleX" : 1,
+                                    "scaleY" : 1
+                                 },
+                                 "selector" : {
+                                    "_typeName" : "PressableAndClickableElement",
+                                    "clickTime" : 500
+                                 },
+                                 "skin" : {
+                                    "_typeName" : "StaticTextureRect",
+                                    "box" : {
+                                       "_typeName" : "RelativeBox",
+                                       "height" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 0,
+                                          "value" : 0
+                                       },
+                                       "offset" : {
+                                          "_empty" : true
+                                       },
+                                       "width" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0.5
+                                       }
+                                    },
+                                    "color" : [ 1, 1, 1, 1 ],
+                                    "imageName" : "metrol.png",
+                                    "position" : {
+                                       "_typeName" : "AligningOffset",
+                                       "horAlign" : 0,
+                                       "horOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       },
+                                       "vertAlign" : 1,
+                                       "vertOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       }
+                                    }
+                                 },
+                                 "transitionAnimations" : []
+                              },
+                              {
+                                 "_name" : "metrodr",
+                                 "_typeName" : "ObjectConstruct",
+                                 "animations" : [],
+                                 "finder" : {
+                                    "_typeName" : "FindableGeometryElement",
+                                    "geom" : {
+                                       "_typeName" : "IdenticGeometry"
+                                    }
+                                 },
+                                 "id" : 0,
+                                 "position" : {
+                                    "_typeName" : "PositionElement",
+                                    "angle" : 0,
+                                    "offset" : [ 0, 0 ],
+                                    "scaleX" : 1,
+                                    "scaleY" : 1
+                                 },
+                                 "selector" : {
+                                    "_typeName" : "PressableAndClickableElement",
+                                    "clickTime" : 500
+                                 },
+                                 "skin" : {
+                                    "_typeName" : "StaticTextureRect",
+                                    "box" : {
+                                       "_typeName" : "RelativeBox",
+                                       "height" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 0,
+                                          "value" : 0
+                                       },
+                                       "offset" : {
+                                          "_empty" : true
+                                       },
+                                       "width" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0.5
+                                       }
+                                    },
+                                    "color" : [ 1, 1, 1, 1 ],
+                                    "imageName" : "metror.png",
+                                    "position" : {
+                                       "_typeName" : "AligningOffset",
+                                       "horAlign" : 2,
+                                       "horOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       },
+                                       "vertAlign" : 1,
+                                       "vertOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       }
+                                    }
+                                 },
+                                 "transitionAnimations" : []
+                              }
+                           ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.1190000027418137
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : -0.01899999938905239
+                              }
+                           }
+                        },
+                        {
+                           "_typeName" : "CanvasLayout",
+                           "adjustment" : 0,
+                           "box" : {
+                              "_typeName" : "RelativeBox",
+                              "height" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.1340000033378601
+                              },
+                              "offset" : {
+                                 "_empty" : true
+                              },
+                              "width" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.07199999690055847
+                              }
+                           },
+                           "list" : [
+                              {
+                                 "_name" : "metrodle",
+                                 "_typeName" : "ObjectConstruct",
+                                 "animations" : [],
+                                 "finder" : {
+                                    "_typeName" : "FindableGeometryElement",
+                                    "geom" : {
+                                       "_typeName" : "IdenticGeometry"
+                                    }
+                                 },
+                                 "id" : 0,
+                                 "position" : {
+                                    "_typeName" : "PositionElement",
+                                    "angle" : 0,
+                                    "offset" : [ 0, 0 ],
+                                    "scaleX" : 1,
+                                    "scaleY" : 1
+                                 },
+                                 "selector" : {
+                                    "_typeName" : "PressableAndClickableElement",
+                                    "clickTime" : 500
+                                 },
+                                 "skin" : {
+                                    "_typeName" : "StaticTextureRect",
+                                    "box" : {
+                                       "_typeName" : "RelativeBox",
+                                       "height" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 0,
+                                          "value" : 0
+                                       },
+                                       "offset" : {
+                                          "_empty" : true
+                                       },
+                                       "width" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0.5
+                                       }
+                                    },
+                                    "color" : [ 1, 1, 1, 1 ],
+                                    "imageName" : "metrol.png",
+                                    "position" : {
+                                       "_typeName" : "AligningOffset",
+                                       "horAlign" : 0,
+                                       "horOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       },
+                                       "vertAlign" : 1,
+                                       "vertOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       }
+                                    }
+                                 },
+                                 "transitionAnimations" : []
+                              },
+                              {
+                                 "_name" : "metrodre",
+                                 "_typeName" : "ObjectConstruct",
+                                 "animations" : [],
+                                 "finder" : {
+                                    "_typeName" : "FindableGeometryElement",
+                                    "geom" : {
+                                       "_typeName" : "IdenticGeometry"
+                                    }
+                                 },
+                                 "id" : 0,
+                                 "position" : {
+                                    "_typeName" : "PositionElement",
+                                    "angle" : 0,
+                                    "offset" : [ 0, 0 ],
+                                    "scaleX" : 1,
+                                    "scaleY" : 1
+                                 },
+                                 "selector" : {
+                                    "_typeName" : "PressableAndClickableElement",
+                                    "clickTime" : 500
+                                 },
+                                 "skin" : {
+                                    "_typeName" : "StaticTextureRect",
+                                    "box" : {
+                                       "_typeName" : "RelativeBox",
+                                       "height" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 0,
+                                          "value" : 0
+                                       },
+                                       "offset" : {
+                                          "_empty" : true
+                                       },
+                                       "width" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0.5
+                                       }
+                                    },
+                                    "color" : [ 1, 1, 1, 1 ],
+                                    "imageName" : "metror.png",
+                                    "position" : {
+                                       "_typeName" : "AligningOffset",
+                                       "horAlign" : 2,
+                                       "horOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       },
+                                       "vertAlign" : 1,
+                                       "vertOffset" : {
+                                          "_typeName" : "RelativeValue",
+                                          "type" : 2,
+                                          "value" : 0
+                                       }
+                                    }
+                                 },
+                                 "transitionAnimations" : []
+                              }
+                           ],
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.3470000028610229
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : -0.01899999938905239
+                              }
+                           }
+                        },
+                        {
+                           "_typeName" : "StaticTextureRect",
+                           "box" : {
+                              "_typeName" : "RelativeBox",
+                              "height" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.2000000029802322
+                              },
+                              "offset" : {
+                                 "_empty" : true
+                              },
+                              "width" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 2,
+                                 "value" : 0.949999988079071
+                              }
+                           },
+                           "color" : [ 1, 1, 1, 1 ],
+                           "imageName" : "metro.png",
+                           "position" : {
+                              "_typeName" : "AligningOffset",
+                              "horAlign" : 1,
+                              "horOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              },
+                              "vertAlign" : 1,
+                              "vertOffset" : {
+                                 "_typeName" : "RelativeValue",
+                                 "type" : 1,
+                                 "value" : 0
+                              }
+                           }
+                        }
+                     ],
+                     "position" : {
+                        "_typeName" : "AligningOffset",
+                        "horAlign" : 1,
+                        "horOffset" : {
+                           "_typeName" : "RelativeValue",
+                           "type" : 1,
+                           "value" : -1000
+                        },
+                        "vertAlign" : 1,
+                        "vertOffset" : {
+                           "_typeName" : "RelativeValue",
+                           "type" : 2,
+                           "value" : -0.300000011920929
+                        }
+                     }
+                  },
+                  "transitionAnimations" : []
+               },
+               {
+                  "_name" : "playb",
+                  "_typeName" : "Button",
+                  "_visible" : false,
+                  "position" : {
+                     "_typeName" : "AligningOffset",
+                     "horAlign" : 1,
+                     "horOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 2,
+                        "value" : -0.3449999988079071
+                     },
+                     "vertAlign" : 1,
+                     "vertOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 2,
+                        "value" : -0.3199999928474426
+                     }
+                  },
+                  "skin" : {
+                     "_typeName" : "SimpleRectangleButtonSkin",
+                     "borderColor" : [ 0, 0, 0, 1 ],
+                     "borderWidth" : 1,
+                     "box" : {
+                        "_typeName" : "PixelBox",
+                        "height" : 50,
+                        "width" : 50
+                     },
+                     "fillColor" : [ 0.7843137383460999, 0.7843137383460999, 0.7843137383460999, 1 ],
+                     "font" : {
+                        "_typeName" : "FontDesc",
+                        "family" : "Arial",
+                        "size" : 32
+                     },
+                     "text" : "Play",
+                     "textColor" : [ 0, 0, 0, 1 ],
+                     "textOutlineColor" : [ 0, 0, 0, 1 ],
+                     "useGradient" : true
+                  }
+               },
+               {
+                  "_name" : "helpb",
+                  "_typeName" : "Button",
+                  "_visible" : false,
+                  "position" : {
+                     "_typeName" : "AligningOffset",
+                     "horAlign" : 1,
+                     "horOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 2,
+                        "value" : -0.1120000034570694
+                     },
+                     "vertAlign" : 1,
+                     "vertOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 2,
+                        "value" : -0.3199999928474426
+                     }
+                  },
+                  "skin" : {
+                     "_typeName" : "SimpleRectangleButtonSkin",
+                     "borderColor" : [ 0, 0, 0, 1 ],
+                     "borderWidth" : 1,
+                     "box" : {
+                        "_typeName" : "PixelBox",
+                        "height" : 50,
+                        "width" : 50
+                     },
+                     "fillColor" : [ 0.7843137383460999, 0.7843137383460999, 0.7843137383460999, 1 ],
+                     "font" : {
+                        "_typeName" : "FontDesc",
+                        "family" : "Arial",
+                        "size" : 32
+                     },
+                     "text" : "Help",
+                     "textColor" : [ 0, 0, 0, 1 ],
+                     "textOutlineColor" : [ 0, 0, 0, 1 ],
+                     "useGradient" : true
+                  }
+               },
+               {
+                  "_name" : "saitb",
+                  "_typeName" : "Button",
+                  "_visible" : false,
+                  "position" : {
+                     "_typeName" : "AligningOffset",
+                     "horAlign" : 1,
+                     "horOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 2,
+                        "value" : 0.1190000027418137
+                     },
+                     "vertAlign" : 1,
+                     "vertOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 2,
+                        "value" : -0.3199999928474426
+                     }
+                  },
+                  "skin" : {
+                     "_typeName" : "SimpleRectangleButtonSkin",
+                     "borderColor" : [ 0, 0, 0, 1 ],
+                     "borderWidth" : 1,
+                     "box" : {
+                        "_typeName" : "PixelBox",
+                        "height" : 50,
+                        "width" : 50
+                     },
+                     "fillColor" : [ 0.7843137383460999, 0.7843137383460999, 0.7843137383460999, 1 ],
+                     "font" : {
+                        "_typeName" : "FontDesc",
+                        "family" : "Arial",
+                        "size" : 32
+                     },
+                     "text" : "Sait",
+                     "textColor" : [ 0, 0, 0, 1 ],
+                     "textOutlineColor" : [ 0, 0, 0, 1 ],
+                     "useGradient" : true
+                  }
+               },
+               {
+                  "_name" : "exitb",
+                  "_typeName" : "Button",
+                  "_visible" : false,
+                  "position" : {
+                     "_typeName" : "AligningOffset",
+                     "horAlign" : 1,
+                     "horOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 2,
+                        "value" : 0.3470000028610229
+                     },
+                     "vertAlign" : 1,
+                     "vertOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 2,
+                        "value" : -0.3199999928474426
+                     }
+                  },
+                  "skin" : {
+                     "_typeName" : "SimpleRectangleButtonSkin",
+                     "borderColor" : [ 0, 0, 0, 1 ],
+                     "borderWidth" : 1,
+                     "box" : {
+                        "_typeName" : "PixelBox",
+                        "height" : 50,
+                        "width" : 50
+                     },
+                     "fillColor" : [ 0.7843137383460999, 0.7843137383460999, 0.7843137383460999, 1 ],
+                     "font" : {
+                        "_typeName" : "FontDesc",
+                        "family" : "Arial",
+                        "size" : 32
+                     },
+                     "text" : "Exit",
+                     "textColor" : [ 0, 0, 0, 1 ],
+                     "textOutlineColor" : [ 0, 0, 0, 1 ],
+                     "useGradient" : true
+                  }
+               },
+               {
+                  "_typeName" : "StaticTextureRect",
+                  "box" : {
+                     "_typeName" : "RelativeBox",
+                     "height" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 2,
+                        "value" : 0.4000000059604645
+                     },
+                     "offset" : {
+                        "_empty" : true
+                     },
+                     "width" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 2,
+                        "value" : 0.800000011920929
+                     }
+                  },
+                  "color" : [ 1, 1, 1, 1 ],
+                  "imageName" : "zagolovok.png",
+                  "position" : {
+                     "_typeName" : "AligningOffset",
+                     "horAlign" : 1,
+                     "horOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 1,
+                        "value" : 0
+                     },
+                     "vertAlign" : 1,
+                     "vertOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 2,
+                        "value" : 0.2000000029802322
+                     }
+                  }
+               }
+            ],
+            "position" : {
+               "_typeName" : "AligningOffset",
+               "horAlign" : 1,
+               "horOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               },
+               "vertAlign" : 1,
+               "vertOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               }
+            }
+         }
+      },
+      {
+         "_key" : 2,
+         "_value" : {
+            "_name" : "Игра",
+            "_typeName" : "CanvasLayout",
+            "adjustment" : 0,
+            "box" : {
+               "_typeName" : "RelativeBox",
+               "height" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 0,
+                  "value" : 0
+               },
+               "offset" : {
+                  "_empty" : true
+               },
+               "width" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 0,
+                  "value" : 0
+               }
+            },
+            "list" : [
+               {
+                  "_name" : "field",
+                  "_typeName" : "GameView",
+                  "box" : {
+                     "_typeName" : "RelativeBox",
+                     "height" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 0,
+                        "value" : 0
+                     },
+                     "offset" : {
+                        "_empty" : true
+                     },
+                     "width" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 0,
+                        "value" : 0
+                     }
+                  },
+                  "gameBoxObj" : {
+                     "_typeName" : "InfiniteGameBox"
+                  },
+                  "list" : [
+                     {
+                        "_name" : "floor",
+                        "_typeName" : "Layer",
+                        "index" : {
+                           "_typeName" : "FlatIndex",
+                           "keyType" : 2
+                        },
+                        "list" : [],
+                        "order" : {
+                           "_typeName" : "SortByIDOrder"
+                        }
+                     },
+                     {
+                        "_name" : "rels",
+                        "_typeName" : "Layer",
+                        "index" : {
+                           "_typeName" : "FlatIndex",
+                           "keyType" : 2
+                        },
+                        "list" : [],
+                        "order" : {
+                           "_typeName" : "SortByIDOrder"
+                        }
+                     },
+                     {
+                        "_name" : "stops",
+                        "_typeName" : "Layer",
+                        "index" : {
+                           "_typeName" : "FlatIndex",
+                           "keyType" : 2
+                        },
+                        "list" : [],
+                        "order" : {
+                           "_typeName" : "SortByIDOrder"
+                        }
+                     },
+                     {
+                        "_name" : "walls",
+                        "_typeName" : "Layer",
+                        "index" : {
+                           "_typeName" : "FlatIndex",
+                           "keyType" : 2
+                        },
+                        "list" : [],
+                        "order" : {
+                           "_typeName" : "SortByIDOrder"
+                        }
+                     },
+                     {
+                        "_name" : "vagons",
+                        "_typeName" : "Layer",
+                        "index" : {
+                           "_typeName" : "FlatIndex",
+                           "keyType" : 2
+                        },
+                        "list" : [],
+                        "order" : {
+                           "_typeName" : "SortByIDOrder"
+                        }
+                     },
+                     {
+                        "_name" : "Puli",
+                        "_typeName" : "Layer",
+                        "index" : {
+                           "_typeName" : "FlatIndex",
+                           "keyType" : 2
+                        },
+                        "list" : [],
+                        "order" : {
+                           "_typeName" : "SortByIDOrder"
+                        }
+                     },
+                     {
+                        "_name" : "Zombies",
+                        "_typeName" : "Layer",
+                        "index" : {
+                           "_typeName" : "FlatIndex",
+                           "keyType" : 2
+                        },
+                        "list" : [],
+                        "order" : {
+                           "_typeName" : "SortByIDOrder"
+                        }
+                     },
+                     {
+                        "_name" : "obj",
+                        "_typeName" : "Layer",
+                        "index" : {
+                           "_typeName" : "FlatIndex",
+                           "keyType" : 2
+                        },
+                        "list" : [
+                           {
+                              "_name" : "fighter",
+                              "_typeName" : "ObjectConstruct",
+                              "animations" : [
+                                 {
+                                    "_key" : "xodba",
+                                    "_value" : {
+                                       "_typeName" : "RepeatingAnimation",
+                                       "animation" : {
+                                          "_typeName" : "CompositeAnimation",
+                                          "animations" : [
+                                             {
+                                                "_typeName" : "AnimationPause",
+                                                "pauseTime" : 150
+                                             },
+                                             {
+                                                "_typeName" : "InstantHide",
+                                                "objName" : "xod1"
+                                             },
+                                             {
+                                                "_typeName" : "InstantShow",
+                                                "objName" : "xod2"
+                                             },
+                                             {
+                                                "_typeName" : "AnimationPause",
+                                                "pauseTime" : 150
+                                             },
+                                             {
+                                                "_typeName" : "InstantHide",
+                                                "objName" : "xod2"
+                                             },
+                                             {
+                                                "_typeName" : "InstantShow",
+                                                "objName" : "xod3"
+                                             },
+                                             {
+                                                "_typeName" : "AnimationPause",
+                                                "pauseTime" : 150
+                                             },
+                                             {
+                                                "_typeName" : "InstantHide",
+                                                "objName" : "xod3"
+                                             },
+                                             {
+                                                "_typeName" : "InstantShow",
+                                                "objName" : "xod4"
+                                             },
+                                             {
+                                                "_typeName" : "AnimationPause",
+                                                "pauseTime" : 150
+                                             },
+                                             {
+                                                "_typeName" : "InstantHide",
+                                                "objName" : "xod4"
+                                             },
+                                             {
+                                                "_typeName" : "InstantShow",
+                                                "objName" : "xod5"
+                                             },
+                                             {
+                                                "_typeName" : "AnimationPause",
+                                                "pauseTime" : 150
+                                             },
+                                             {
+                                                "_typeName" : "InstantHide",
+                                                "objName" : "xod5"
+                                             },
+                                             {
+                                                "_typeName" : "InstantShow",
+                                                "objName" : "xod6"
+                                             },
+                                             {
+                                                "_typeName" : "AnimationPause",
+                                                "pauseTime" : 150
+                                             },
+                                             {
+                                                "_typeName" : "InstantHide",
+                                                "objName" : "xod6"
+                                             },
+                                             {
+                                                "_typeName" : "InstantShow",
+                                                "objName" : "xod7"
+                                             },
+                                             {
+                                                "_typeName" : "AnimationPause",
+                                                "pauseTime" : 150
+                                             },
+                                             {
+                                                "_typeName" : "InstantHide",
+                                                "objName" : "xod7"
+                                             },
+                                             {
+                                                "_typeName" : "InstantShow",
+                                                "objName" : "xod1"
+                                             }
+                                          ]
+                                       },
+                                       "repeatTimes" : -1
+                                    }
+                                 }
+                              ],
+                              "finder" : {
+                                 "_typeName" : "FindableGeometryElement",
+                                 "geom" : {
+                                    "_typeName" : "IdenticGeometry"
+                                 }
+                              },
+                              "id" : 0,
+                              "position" : {
+                                 "_typeName" : "PositionElement",
+                                 "angle" : 0,
+                                 "offset" : [ 0, 0 ],
+                                 "scaleX" : 0.800000011920929,
+                                 "scaleY" : 0.800000011920929
+                              },
+                              "selector" : {
+                                 "_typeName" : "PressableAndClickableElement",
+                                 "clickTime" : 500
+                              },
+                              "skin" : {
+                                 "_typeName" : "CanvasLayout",
+                                 "adjustment" : 0,
+                                 "box" : {
+                                    "_typeName" : "PixelBox",
+                                    "height" : 63,
+                                    "width" : 91
+                                 },
+                                 "list" : [
+                                    {
+                                       "_name" : "xod1",
+                                       "_typeName" : "StaticTextureRect",
+                                       "box" : {
+                                          "_typeName" : "PixelBox",
+                                          "height" : 63,
+                                          "width" : 91
+                                       },
+                                       "color" : [ 1, 1, 1, 1 ],
+                                       "imageName" : "xod1.png",
+                                       "position" : {
+                                          "_typeName" : "AligningOffset",
+                                          "horAlign" : 1,
+                                          "horOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          },
+                                          "vertAlign" : 1,
+                                          "vertOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          }
+                                       }
+                                    },
+                                    {
+                                       "_name" : "xod2",
+                                       "_typeName" : "StaticTextureRect",
+                                       "_visible" : false,
+                                       "box" : {
+                                          "_typeName" : "PixelBox",
+                                          "height" : 63,
+                                          "width" : 91
+                                       },
+                                       "color" : [ 1, 1, 1, 1 ],
+                                       "imageName" : "xod2.png",
+                                       "position" : {
+                                          "_typeName" : "AligningOffset",
+                                          "horAlign" : 1,
+                                          "horOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          },
+                                          "vertAlign" : 1,
+                                          "vertOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          }
+                                       }
+                                    },
+                                    {
+                                       "_name" : "xod3",
+                                       "_typeName" : "StaticTextureRect",
+                                       "_visible" : false,
+                                       "box" : {
+                                          "_typeName" : "PixelBox",
+                                          "height" : 63,
+                                          "width" : 91
+                                       },
+                                       "color" : [ 1, 1, 1, 1 ],
+                                       "imageName" : "xod3.png",
+                                       "position" : {
+                                          "_typeName" : "AligningOffset",
+                                          "horAlign" : 1,
+                                          "horOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          },
+                                          "vertAlign" : 1,
+                                          "vertOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          }
+                                       }
+                                    },
+                                    {
+                                       "_name" : "xod4",
+                                       "_typeName" : "StaticTextureRect",
+                                       "_visible" : false,
+                                       "box" : {
+                                          "_typeName" : "PixelBox",
+                                          "height" : 63,
+                                          "width" : 91
+                                       },
+                                       "color" : [ 1, 1, 1, 1 ],
+                                       "imageName" : "xod4.png",
+                                       "position" : {
+                                          "_typeName" : "AligningOffset",
+                                          "horAlign" : 1,
+                                          "horOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          },
+                                          "vertAlign" : 1,
+                                          "vertOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          }
+                                       }
+                                    },
+                                    {
+                                       "_name" : "xod5",
+                                       "_typeName" : "StaticTextureRect",
+                                       "_visible" : false,
+                                       "box" : {
+                                          "_typeName" : "PixelBox",
+                                          "height" : 63,
+                                          "width" : 91
+                                       },
+                                       "color" : [ 1, 1, 1, 1 ],
+                                       "imageName" : "xod5.png",
+                                       "position" : {
+                                          "_typeName" : "AligningOffset",
+                                          "horAlign" : 1,
+                                          "horOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          },
+                                          "vertAlign" : 1,
+                                          "vertOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          }
+                                       }
+                                    },
+                                    {
+                                       "_name" : "xod6",
+                                       "_typeName" : "StaticTextureRect",
+                                       "_visible" : false,
+                                       "box" : {
+                                          "_typeName" : "PixelBox",
+                                          "height" : 63,
+                                          "width" : 91
+                                       },
+                                       "color" : [ 1, 1, 1, 1 ],
+                                       "imageName" : "xod6.png",
+                                       "position" : {
+                                          "_typeName" : "AligningOffset",
+                                          "horAlign" : 1,
+                                          "horOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          },
+                                          "vertAlign" : 1,
+                                          "vertOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          }
+                                       }
+                                    },
+                                    {
+                                       "_name" : "xod7",
+                                       "_typeName" : "StaticTextureRect",
+                                       "_visible" : false,
+                                       "box" : {
+                                          "_typeName" : "PixelBox",
+                                          "height" : 63,
+                                          "width" : 91
+                                       },
+                                       "color" : [ 1, 1, 1, 1 ],
+                                       "imageName" : "xod7.png",
+                                       "position" : {
+                                          "_typeName" : "AligningOffset",
+                                          "horAlign" : 1,
+                                          "horOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          },
+                                          "vertAlign" : 1,
+                                          "vertOffset" : {
+                                             "_typeName" : "RelativeValue",
+                                             "type" : 1,
+                                             "value" : 0
+                                          }
+                                       }
+                                    }
+                                 ],
+                                 "position" : {
+                                    "_typeName" : "AligningOffset",
+                                    "horAlign" : 1,
+                                    "horOffset" : {
+                                       "_typeName" : "RelativeValue",
+                                       "type" : 1,
+                                       "value" : 0
+                                    },
+                                    "vertAlign" : 1,
+                                    "vertOffset" : {
+                                       "_typeName" : "RelativeValue",
+                                       "type" : 1,
+                                       "value" : 0
+                                    }
+                                 }
+                              },
+                              "transitionAnimations" : []
+                           }
+                        ],
+                        "order" : {
+                           "_typeName" : "SortByIDOrder"
+                        }
+                     }
+                  ],
+                  "position" : {
+                     "_typeName" : "AligningOffset",
+                     "horAlign" : 1,
+                     "horOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 1,
+                        "value" : 0
+                     },
+                     "vertAlign" : 1,
+                     "vertOffset" : {
+                        "_typeName" : "RelativeValue",
+                        "type" : 1,
+                        "value" : 0
+                     }
+                  }
+               }
+            ],
+            "position" : {
+               "_typeName" : "AligningOffset",
+               "horAlign" : 1,
+               "horOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               },
+               "vertAlign" : 1,
+               "vertOffset" : {
+                  "_typeName" : "RelativeValue",
+                  "type" : 1,
+                  "value" : 0
+               }
+            }
+         }
+      }
+   ],
+   "position" : {
+      "_typeName" : "AligningOffset",
+      "horAlign" : 1,
+      "horOffset" : {
+         "_typeName" : "RelativeValue",
+         "type" : 1,
+         "value" : 0
+      },
+      "vertAlign" : 1,
+      "vertOffset" : {
+         "_typeName" : "RelativeValue",
+         "type" : 1,
+         "value" : 0
+      }
+   }
+}
